@@ -1,7 +1,7 @@
 IRRTree
 =======
 
-Simple tool to quickly assess potential resource consumption of an AS-SET.
+Tool to quickly assess potential resource consumption of an AS-SET.
 
 ```
 job$ irrtree
@@ -21,12 +21,13 @@ Source: https://github.com/job/irrtree
 
 **Note:** especially when dealing with large AS-SETs, the latency towards the
 IRRd host has significant impact on this program's execution time. Lower
-latency is better.
+latency is better. You can increase the number of connections towards the server
+using the --connections arguments, but please be minful of restrictions in the server.
 
 Installation:
 =============
 
-**irrtree requires python 3**
+**irrtree requires python 3.7 or larger**
 
 Through pypi (try `pip install --upgrade pip` if you get errors):
 

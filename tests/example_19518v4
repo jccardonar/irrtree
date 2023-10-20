@@ -1,0 +1,10 @@
+IRRTree (1.4.0) report for 'AS-ROCKISLAND' (IPv4), using rr.ntt.net at 2022-09-09 02:00
+AS-ROCKISLAND (4 ASNs, 9 pfxs)
+ +-- AS-ROCKISLAND-CUST (4 ASNs, 9 pfxs)
+ |   +-- AS-PALCNET (4 ASNs, 9 pfxs)
+ |   |   +-- AS-PALCNET-CUST (4 ASNs, 9 pfxs)
+ |   |   |   +-- AS-ROCKISLAND (4 ASNs, 9 pfxs) - already expanded
+ |   |   +-- AS26370 (3 pfxs)
+ |   |   +-- AS26566 (1 pfxs)
+ |   +-- AS53548 (1 pfxs)
+ +-- AS19518 (4 pfxs)
